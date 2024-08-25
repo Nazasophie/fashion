@@ -79,7 +79,7 @@
   /* ie 10+ */
   background: -ms-radial-gradient(
     circle at 15% 20%,
-    rgba(3, 27, 52, 1) 0%,
+    rgb(49, 129, 213) 0%,
     rgba(4, 12, 24, 1) 100%
   );
 

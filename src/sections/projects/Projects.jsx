@@ -97,89 +97,21 @@ const Projects = ({ title, subtitle, note }) => {
                         <Button name={'Check it out'} />
                     </a>
                 </div>
-                <div className="project">
-                    <img src={isoxImage} className="project-image" alt="student tax help" />
-                    <a href='https://isoxltd.com/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={emcaImage} className="project-image" alt="emca accounting" />
-                    <a href='https://www.emcaaccounting.ca/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={dbmnImage} className="project-image" alt="doing business conference" />
-                    <a href='https://doingbusinessinnigeriaconference.net/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={edublokImage} className="project-image" alt="edublok" />
-                    <a href='https://edublok.koinwa.com/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
+               
+              
 
             </div>
 
             {/* ReactJs and Javascript projects */}
-            <h3 className='category-title'>ReactJs and Javascript projects</h3>
+            <h3 className='category-title'>Color blending idea</h3>
             <div className="project-container">
 
-                <div className="project">
-                    <img src={easyRecipeImage} className="project-image" alt="easy recipe" />
-                    <p className="project-text">
-                        A recipe app that fetches a list of all
-                        recipes from external API and provide dynamic
-                        search functionality.
-                    </p>
-                    <a href='https://easyrecipee.netlify.app/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={kryptolandImage} className="project-image" alt="kryptoland" />
-                    <p className="project-text">
-                        One stop home for all information about crytocurencies; including
-                        top cryptcurencies, cryptcurency prices, market trends, crypto news,
-                        exchanges and others.
-                    </p>
-                    <a href='https://kryptoland.netlify.app/' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
+               
+                
 
-                <div className="project">
-                    <img src={translatorImage} className="project-image" alt="language translator" />
-                    <p className="project-text">
-                        A simple language translator with text-to-voice and copy functionality.
-                    </p>
-                    <a href="https://giftednathan.github.io/translator" target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={animatedIconsImage} className="project-image" alt="animated weather icons" />
-                    <p className="project-text">
-                        An animated weather icons for the various weather conditions.
-                        It is built with HTML AND CSS.
-                    </p>
-                    <a href='https://giftednathan.github.io/animated-weather-icons' target='_blank' rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
-                <div className="project">
-                    <img src={ejeImage} className="project-image" alt="eje nathaniel" />
-                    <p className="project-text">
-                        This is fully responsive portfolio with multiple sections.
-                        It has various animations and support mobile, desktop, and tablet screen sizes.
-                    </p>
-                    <a href="https://ejenathaniel.netlify.app/" rel="noreferrer">
-                        <Button name={'Check it out'} />
-                    </a>
-                </div>
+              
+              
+              
 
             </div>
 

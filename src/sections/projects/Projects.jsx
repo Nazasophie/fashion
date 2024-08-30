@@ -16,6 +16,7 @@ import zionbarsImage from '../../assets/images/zionbars.jpg';
 import brandleepImage from '../../assets/images/brandleep.jpg';
 import zecnetImage from '../../assets/images/zecnet.jpg';
 import helpinghandsImage from '../../assets/images/helpinghands.jpg';
+
 import koinwaImage from '../../assets/images/koinwa.jpg';
 
 import animatedIconsImage from '../../assets/images/animated-icons.png';
@@ -102,13 +103,26 @@ const Projects = ({ title, subtitle, note }) => {
 
             </div>
 
-            {/* ReactJs and Javascript projects */}
-            <h3 className='category-title'>Color blending idea</h3>
+            { /* WordPress projects  */}
+                < SectionHeader title={title} subtitle={subtitle} paddingValue={'10px'} note={`Check Out These Color Blocking Ideas for a Fashionista, Classic Look.`} />
             <div className="project-container">
-
+                <div className="project">
+                    <img src={edublokImage} className="project-image" alt="pairPink consultancy banner" />
+                    <a href='
+            https://drive.google.com/file/d/1ReVs3J3ht1i8qJhK9SfzrUtA199UVCT1/view?usp=drivesdk' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
                
                 
-
+                <div className="project">
+                    <img src={animatedIconsImage} className="project-image" alt="pairYellow
+                     consultancy banner" />
+                    <a href='
+            https://drive.google.com/file/d/1RmNaLXxXRnpdo1lq1CaAzrpclAojk5Um/view?usp=drivesdk' target='_blank' rel="noreferrer">
+                        <Button name={'Check it out'} />
+                    </a>
+                </div>
               
               
               
